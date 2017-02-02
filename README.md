@@ -11,10 +11,13 @@
 
 
 
+![BaiSiBuDeLi](http://oihebeiz4.bkt.clouddn.com/device-2017-02-02-161913.png)　
 ![BaiSiBuDeLi](http://oihebeiz4.bkt.clouddn.com/device-2017-02-02-161951.png)　
-![AnimeTaste](http://ww3.sinaimg.cn/mw690/610dc034jw1e885obnjy6j208c0b43zo.jpg)
+![BaiSiBuDeLi](http://oihebeiz4.bkt.clouddn.com/device-2017-02-02-170445.png)　
+![BaiSiBuDeLi](http://oihebeiz4.bkt.clouddn.com/device-2017-02-02-162144.png)　
 
-### 感谢以下库作者和组织
+
+### 感谢以下库作者
 
 *	[Picasso](https://github.com/square/picasso)
 * [BigImageViewer](https://github.com/Piasy/BigImageViewer)
