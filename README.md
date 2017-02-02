@@ -7,7 +7,7 @@
 ---------------------
 
 
-### 体验地址: [豌豆荚](http://www.wandoujia.com/apps/com.zhan_dui.animetaste) [Google Play](https://play.google.com/store/apps/details?id=com.zhan_dui.animetaste) ###
+### 体验地址: [蒲公英](https://www.pgyer.com/WAEm) ###
 
 
 
