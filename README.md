@@ -1,8 +1,8 @@
-#百思不得莉[![Build Status](https://github.com/wqf6146/BaiSiBuDeLi)
+#百思不得莉
 
 ---------------------
 
-高仿百思不得姐 集搞笑健康美死内容app
+高仿百思不得姐 集搞笑、健康、美食内容app
 
 ---------------------
 
@@ -11,7 +11,7 @@
 
 
 
-![AnimeTaste](http://ww2.sinaimg.cn/mw690/610dc034jw1e885o9kjgzj208c0b40ty.jpg)　
+![BaiSiBuDeLi](http://oihebeiz4.bkt.clouddn.com/device-2017-02-02-161913.png)　
 ![AnimeTaste](http://ww3.sinaimg.cn/mw690/610dc034jw1e885obnjy6j208c0b43zo.jpg)
 
 ### 感谢以下库作者和组织
