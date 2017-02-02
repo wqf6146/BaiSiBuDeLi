@@ -12,9 +12,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-/**
- * Created by yangcai on 2016/1/27.
- */
+
 public class BdjRefreshHeader extends LinearLayout implements BaseRefreshHeader {
     private Context mContext;
     private ImageView mImg;

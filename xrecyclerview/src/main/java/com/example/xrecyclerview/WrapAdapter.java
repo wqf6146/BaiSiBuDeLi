@@ -7,9 +7,7 @@ import android.util.SparseArray;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by yangcai on 2016/1/28.
- */
+
 public class WrapAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private static final int TYPE_REFRESH_HEADER = -5;
     private static final int TYPE_HEADER = -4;

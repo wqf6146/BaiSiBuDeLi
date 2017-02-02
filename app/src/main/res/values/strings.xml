@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">WDDOG</string>
+    <string name="app_name">百思不得莉</string>
     <string name="recipecount">· 共%s道菜 ·</string>
     <string name="recipebrowse">%s人浏览</string>
     <string name="recipelike">%s人喜欢</string>
