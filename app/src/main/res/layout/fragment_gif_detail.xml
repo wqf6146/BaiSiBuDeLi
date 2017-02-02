@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="url"
+            type="String"/>
+    </data>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="#000"
+        android:layout_height="match_parent">
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:id="@+id/fgd_gifview"
+            fresco:actualImageScaleType="focusCrop"
+            bind:loadGif="@{url}"
+            android:layout_height="wrap_content"
+            />
+    </FrameLayout>
+</layout>

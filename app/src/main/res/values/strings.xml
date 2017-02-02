@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WDDOG</string>
+    <string name="recipecount">· 共%s道菜 ·</string>
+    <string name="recipebrowse">%s人浏览</string>
+    <string name="recipelike">%s人喜欢</string>
+    <string name="recipestep">步骤 %s</string>
+    <string name="recipematerialnumb">%s 食材</string>
+    <string name="recipestepnumb">%s 步骤</string>
+    <string name="jjcommentname">%s ：</string>
+    <string name="healthsummary">%s...</string>
+</resources>

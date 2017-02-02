@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:bind="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/tools">
+
+    <data>
+        <import type="com.lmm.wddog.bean.FoodSecondRecipe"/>
+        <variable
+            name="data"
+            type="com.lmm.wddog.bean.FoodSecondRecipe.ResultBean.RecipesBean"/>
+    </data>
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_width="match_parent"
+            android:id="@+id/frd_bg_img"
+            fresco:scaleType="centerCrop"
+            android:layout_height="400dp" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:id="@+id/frd_scrollview"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <include
+                    android:id="@+id/ird_headpart"
+                    bind:data="@{data}"
+                    layout="@layout/item_recipe_detail_1"/>
+
+                <include
+                    android:id="@+id/ird_midpart"
+                    bind:data="@{data}"
+                    layout="@layout/item_recipe_detail_2"/>
+
+                <include
+                    android:id="@+id/ird_contentpart"
+                    bind:data="@{data}"
+                    layout="@layout/item_recipe_detail_content"/>
+            </LinearLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>
+</layout>

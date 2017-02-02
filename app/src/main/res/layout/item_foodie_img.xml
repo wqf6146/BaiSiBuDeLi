@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/tools">
+    <data>
+        <import type="com.lmm.wddog.bean.FoodRecipe.ResultBean.ListBean"/>
+        <variable
+            name="databean"
+            type="ListBean"/>
+
+        <variable
+            name="imgdata"
+            type="com.lmm.wddog.http.imagemodel.ImageViewModel"/>
+    </data>
+    <RelativeLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:layout_width="match_parent"
+            fresco:actualImageScaleType="centerCrop"
+            android:id="@+id/ifi_imageview"
+            bind:godimageUrl="@{databean.m.b}"
+            fresco:placeholderImage="@color/stay_color"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:id="@+id/ifi_foodcount"
+                android:text="@{@string/recipecount(databean.m.c)}"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:id="@+id/ifi_foodtitle"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@{databean.m.t}"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

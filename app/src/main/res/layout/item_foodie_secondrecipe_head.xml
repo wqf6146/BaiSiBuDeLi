@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:clipChildren="false"
+        android:orientation="vertical"
+        android:layout_height="250dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/ifs_headcontainer"
+            android:background="@color/colorAccent"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/fooddemo"
+                android:id="@+id/ifs_headimg"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"
+                android:id="@+id/ifs_headtitle"
+                android:text="各类面条的大part"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="0.1dp">
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:layout_width="50dp"
+                android:id="@+id/ifs_headlogo"
+                app:actualImageScaleType="centerCrop"
+                app:roundAsCircle="true"
+                android:layout_height="50dp" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="100dp"
+                android:orientation="vertical"
+                android:layout_centerInParent="true"
+                android:layout_height="100dp">
+                <view
+                    android:layout_width="match_parent"
+                    android:background="@color/gray"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_height="0.1dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:id="@+id/ifs_headdesc"
+                    android:text="神奇的土豆，可以化身成各种形态！"
+                    android:layout_height="wrap_content" />
+
+                <view
+                    android:layout_width="match_parent"
+                    android:background="@color/gray"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_height="0.1dp"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+</layout>

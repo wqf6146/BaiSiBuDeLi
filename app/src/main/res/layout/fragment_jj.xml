@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.example.xrecyclerview.XRecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/fj_recycleview"
+        android:scrollbars="vertical"
+        android:scrollbarThumbVertical="@color/top_navigation_bar"
+        android:scrollbarStyle="outsideOverlay"
+        android:layout_height="match_parent"/>
+</layout>

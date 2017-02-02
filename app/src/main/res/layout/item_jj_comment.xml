@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="data"
+            type="com.lmm.wddog.bean.JjBean.ListBean.TopCommentsBean"/>
+    </data>
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:background="@color/graybg"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/ijc_godname"
+            android:textColor="@color/CornflowerBlue"
+            android:textSize="13sp"
+            android:text="@{@string/jjcommentname(data.u.name)}"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="13sp"
+            android:text="@{data.content}"
+            android:id="@+id/ijc_desc"
+            android:textColor="@color/blackfont"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</layout>

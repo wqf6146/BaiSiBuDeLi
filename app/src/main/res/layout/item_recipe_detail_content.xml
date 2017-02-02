@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <import type="com.lmm.wddog.bean.FoodSecondRecipe"/>
+        <variable
+            name="data"
+            type="com.lmm.wddog.bean.FoodSecondRecipe.ResultBean.RecipesBean"/>
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="@color/white"
+        tools:showIn="@layout/fragment_recipe_detail"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/irdm_material_numb"
+            android:textSize="18sp"
+            android:textColor="@color/blackfont"
+            android:text="@{@string/recipematerialnumb(data.major.size())}"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:background="@color/black"
+            android:layout_height="0.1dp"/>
+
+        <com.lmm.wddog.ui.view.NestFullListView
+            android:layout_width="match_parent"
+            android:id="@+id/irdm_material_list"
+            android:orientation="vertical"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/irdm_step_numb"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/blackfont"
+            android:text="@{@string/recipestepnumb(data.cookstep.size())}"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:background="@color/black"
+            android:layout_height="0.1dp"/>
+
+        <com.lmm.wddog.ui.view.NestFullListView
+            android:layout_width="match_parent"
+            android:id="@+id/irdm_step_list"
+            android:orientation="vertical"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+</layout>
