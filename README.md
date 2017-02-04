@@ -9,7 +9,7 @@
 
 ### 体验地址: [蒲公英](https://www.pgyer.com/WAEm) ###
 
-![BaiSiBuDeLi](http://oihebeiz4.bkt.clouddn.com/GIF.gif)　
+![BaiSiBuDeLi](https://github.com/wqf6146/BaiSiBuDeLi/blob/master/GIF.gif)　
 
 ![BaiSiBuDeLi](http://oihebeiz4.bkt.clouddn.com/bs1.png)　
 ![BaiSiBuDeLi](http://oihebeiz4.bkt.clouddn.com/bs2.png)　
