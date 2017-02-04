@@ -8,7 +8,7 @@
 
 
 ### 体验地址: [蒲公英](https://www.pgyer.com/WAEm) ###
-
+打开GIF链接 演示播放更流畅 ： http://images.lmmhero.com/GIF.gif
 ![BaiSiBuDeLi](https://github.com/wqf6146/BaiSiBuDeLi/blob/master/GIF.gif)　
 
 ![BaiSiBuDeLi](http://oihebeiz4.bkt.clouddn.com/bs1.png)　
